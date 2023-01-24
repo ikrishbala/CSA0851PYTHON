@@ -1,0 +1,9 @@
+f=int(input("enter the fresh bread price:"))
+q=int(input("enter the fresh bread quantity:"))
+o=int(input("enter the old bread quantity:"))
+fresh=f*q
+old=o*(f*(40/100))
+total=fresh+old
+print ("fresh bread price= %.2f"% fresh)
+print ("old bread price= %.2f"% old)
+print ("total amount = %.2f"% total)
